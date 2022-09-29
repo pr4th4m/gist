@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- <suite name="test suite" parallel="instances" thread-count="3"> -->
+<suite name="test suite" data-provider-thread-count="6">
+    <test name="test">
+        <groups>
+            <run>
+                <include name="create"/>
+                <include name="delete"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="runner.A" />
+            <class name="runner.B" />
+            <class name="runner.C" />
+        </classes>
+    </test>
+</suite>
