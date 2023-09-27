@@ -1,0 +1,10 @@
+In this example,
+we define a trait called MyTrait with an associated type called Item. 
+The process method takes an argument of type Self::Item and returns the same type. 
+The MyStruct struct implements MyTrait, and sets the associated type Item to be the same as the generic type T of the struct. 
+The process method simply returns the argument it is given.
+In the main function, we create an instance of MyStruct with an integer value of 42. 
+We then call the process method on this instance with an argument of 10. 
+The output shows that the process method returns the same value that was passed in.
+So, to summarize, associated types allow you to define a type within a trait that will be determined by the implementing type. 
+This provides a way to define generic methods that can work with multiple types, while still being type-safe.
