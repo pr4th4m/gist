@@ -5,14 +5,14 @@
     <test name="test">
         <groups>
             <run>
-                <include name="create"/>
-                <include name="delete"/>
+                <include name="open"/>
+                <include name="close"/>
             </run>
         </groups>
         <classes>
-            <class name="runner.A" />
-            <class name="runner.B" />
-            <class name="runner.C" />
+            <class name="runner.Big" />
+            <class name="runner.Medium" />
+            <class name="runner.Small" />
         </classes>
     </test>
 </suite>
