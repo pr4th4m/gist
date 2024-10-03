@@ -1,6 +1,6 @@
-module gist/golang
+module github.com/pr4th4m/gist/golang
 
-go 1.21.1
+go 1.22
 
 require (
 	github.com/aws/aws-sdk-go-v2 v1.21.0
